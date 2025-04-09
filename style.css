@@ -17,7 +17,7 @@ body {
 
 
 .conteudo-principal {
-    display: flex;
+    display: block;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -40,7 +40,7 @@ body {
     font-family: "Crakra Petch", sans-serif;
     background-color: var(--botao-inativo);
     color: var(--branco);
-    display: flex;
+    display: block;
     justify-content: center;
     padding: 1em;
     font-size: 18px;
@@ -52,11 +52,11 @@ body {
     border-top: none;
 }
 
-.botao:first-child {
-    border-radius: 40px 40px 0 0;
+.botao:first-child:first-child {
+    border-radius:40px 40px 0 0;
 }
 
 .botoes {
-    display: block;
+    display: flex;
 }
 
